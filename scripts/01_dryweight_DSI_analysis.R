@@ -1,4 +1,3 @@
-# PUBLICATION-READY DRY WEIGHT + DSI PLOT -------------------------------
 
 library(dplyr)
 library(tidyr)
@@ -36,7 +35,9 @@ broc_may <- broc_may %>%
     infected = factor(infected, levels = c("no", "yes"))
   )
 
-# Colour palette + legend labels --------------------------------------
+# ------------------------------------------------------------------
+# Colour palette (consistent across manuscript figures)
+# ------------------------------------------------------------------
 pal <- c(
   "control"      = "grey50",
   "biochar"      = "#b2df8a",
@@ -258,3 +259,4 @@ ggsave(
   height   = 4.5,
   dpi      = 300
 )
+
