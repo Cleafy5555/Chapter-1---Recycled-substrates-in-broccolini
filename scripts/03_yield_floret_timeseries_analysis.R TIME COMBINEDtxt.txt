@@ -1,6 +1,3 @@
-## ========================================================================
-## Floret fresh weight / yield analysis – PUBLICATION-READY SCRIPT
-## ========================================================================
 
 library(dplyr)
 library(tidyr)
@@ -866,3 +863,4 @@ ggsave(
   height = 9,
   dpi    = 300
 )
+
